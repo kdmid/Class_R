@@ -1,7 +1,6 @@
 ---
-title: "Data visualisation"
+title: "Chap1"
 author: "DeukjungKim"
-date: '2020 10 5 '
 output: 
   html_document:
     toc: true
@@ -11,15 +10,14 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE,
+                      warning = FALSE,
+                      message = FALSE)
 ```
 
 
 
-# **Chapter 1. 데이터 시각화**
-
-DeukJung Kim 
-10/5/2020
+# **1장 데이터 시각화**
 
 
 ## **1.1 들어가기**
@@ -208,7 +206,7 @@ ggplot(data = mpg) +
          
 - 위의 코드에서 마지막 줄의 facet_wrap( ~ class, **nrow = 2**), 여기서 **nrow**는 : Number of rows and columns. 즉, 내가 이 그래프의 행 또는 열의 개수를 정할 수 있다는 뜻입니다.
 
-![nrow](C:\Users\emrwn\Desktop\R_Education_Data\Review_R_edu\R_NCS_2020\Markdown\image./nrow ex.png)
+![nrow](image./nrow ex.png)
 
 - 플롯을 두 변수 조합으로 면분할하기 위해서는 **facet_grid()**을 사용하면 유용하다.            
 
@@ -436,7 +434,7 @@ ggplot(data = diamonds) +
 ```
     
 - x축은 cut!, 그렇다면 y축은?? 
-![count](C:\Users\emrwn\Desktop\R_Education_Data\Review_R_edu\R_NCS_2020\Markdown\image./count.png)
+![count](image./count.png)
 
        ?geom_bar
     
@@ -448,7 +446,7 @@ ggplot(data = diamonds) +
         
       
 - 그래프에 사용할 새로운 값을 계산하는 알고리즘은 통계적 변환의 줄임말인 **스탯(stat)**이라고 부른다. 
-![stat](C:\Users\emrwn\Desktop\R_Education_Data\Review_R_edu\R_NCS_2020\Markdown\image./ggplot2 stat.png)
+![stat](image./ggplot2 stat.png)
 
 - 명시적으로 스탯을 사용해야 하는 **세가지 이유**
     
