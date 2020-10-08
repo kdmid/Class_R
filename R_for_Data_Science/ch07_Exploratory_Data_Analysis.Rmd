@@ -1,5 +1,5 @@
 ---
-title: "Ch08_tibble로하는티블"
+title: "Chap7"
 author: "DeukjungKim"
 output: 
   html_document:
