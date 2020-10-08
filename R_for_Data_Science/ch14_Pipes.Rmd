@@ -1,7 +1,6 @@
 ---
 title: "Chap14"
-author: "saeramlee"
-date: '2020 10 8 '
+author: "DeukjungKim"
 output:
    html_document:
     toc: true
