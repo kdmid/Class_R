@@ -30,7 +30,9 @@ library(WRS)
 library(utils)
 ```
 
-# 데이터 불러오기 및 통합
+# 1. 데이터 불러오기 및 통합
+우리가 사용할 데이터인 엠코퍼레이션 온라인 구매 데이터를 불러오고 데이터를 통합한다.
+
 ```{r}
 files <- list.files(path = "data/Mcorporation/상품 카테고리 데이터_KDX 시각화 경진대회 Only", pattern = "*.xlsx", full.names = T)
 
@@ -198,5 +200,6 @@ ind.t.test<-t.test(mean ~ OS유형, data = products1)
 
 ind.t.test
 ```
+
 
 
