@@ -1,5 +1,6 @@
-# Data_Science
+# Class_R
 
 R을 활용한 데이터 과학
 
-Chap01 ~ Chap06
+KDX공모전
+
